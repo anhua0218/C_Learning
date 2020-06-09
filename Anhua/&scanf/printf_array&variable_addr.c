@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{	
+	int c;
+	int d;
+	printf("%p\n", &c); 
+	printf("%p\n", &d); 
+	int a[10]; 
+	printf("%p\n", &a); 
+	printf("%p\n", a); 
+	printf("%p\n", &a[0]); 
+	printf("%p\n", &a[1]);
+	return 0;
+}
